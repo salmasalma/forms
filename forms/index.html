@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ADA student feedback</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="all">
+      <div id="hi">
+        <center><img src="https://techcrunch.com/wp-content/uploads/2015/04/uncle-sam-we-want-you1-kopie_1.png?w=730&crop=1"></center>
+        <h3>To give us feedback, because this course is made for you! Because it's all about you!</h3>
+        <p>Fill this form if you:</p>
+        <ul>
+          <li> Find an error in the content or in the quizzes</li>
+          <li>Have a feedback about instructors or the experience</li>
+          <li>Have a suggestion on how to make the course better</li>
+        </ul>
+        </div>
+      <div id="bo">
+        <h3>Email Us</h3>
+        <form id="contact">
+          <div class="next">
+          <p>
+            <label>Name</label><br>
+            <input type="text" name="name" id="name">
+          </p>
+        </div>
+        <div class="next">
+          <p>
+            <label>Track</label><br>
+            <select name="track" id="track">
+              <option value="ai">AI</option>
+              <option value="web">Web</option>
+              <option value="game">Game</option>
+            </select>
+          </p>
+        </div>
+          <p>
+            <label>Slide name (or object)</label><br>
+            <input type="text" name="slide" required="true" id="slide" >
+          </p>
+          <p>
+            <label>Message</label><br>
+            <textarea name="message" id="message"></textarea>
+          </p>
+          <p>
+          <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script src="js/main.js"></script>
+</html>

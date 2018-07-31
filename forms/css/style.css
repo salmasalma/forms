@@ -1,0 +1,58 @@
+body {background-color: rgb(137, 190, 226)
+}
+#all { 
+  margin: 1cm;
+}
+#hi {background-color: rgb(196, 220, 250);
+   width: 9cm; 
+   height: 17cm 
+  }
+  #bo  {width:100%;
+    padding:0.5cm;
+    border:1px solid #c9e6ff;
+    display:block;
+    background:#f9feff;
+    width: 20cm; 
+    height: 16cm;
+    position: absolute;
+    top: 1cm;
+    left: 380px
+  }
+img {width: 7cm;
+  height: 5cm
+  }
+p, ul, select {  color:#485e74;
+  line-height:1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:1em;
+}
+#slide, #contact  {
+  padding: 0.4cm;
+  border-color: rgb(118, 200, 221);
+  }
+  #message {
+    padding-left: 6.5cm;
+  padding-right: 6.5cm;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  border-color: rgb(118, 200, 221);
+  }
+  button{
+    background:#c9e6ff;
+    text-transform: uppercase;
+    height: 1cm;
+    width:100%;
+    padding:1em;
+    border:1px solid #c9e6ff;
+  }
+  h3 {  color:#485e74;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+#name, #track { padding: 0.4cm;
+  border-color: rgb(118, 200, 221);
+display: inline-block}
+.next {display: inline-block}
+
+@media (max-width:600px){
+#bo, #hi {witdh: 100% ;
+height: auto}}
